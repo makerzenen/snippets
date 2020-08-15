@@ -7,3 +7,8 @@ Generate SSH Keypair
 Renew Using Certbot
 
 `15 3 * * * /usr/bin/certbot renew --quiet`
+
+Setup SublimeText Open from CLI
+
+`ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl`
+
