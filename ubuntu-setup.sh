@@ -84,8 +84,11 @@ terraform -install-autocomplete
 # Install torrent stuffs.
 sudo apt-get install transmission rtorrent -y
 
-# Install tempmail.
+# Install tmpmail.
 sudo apt-get install jq w3m -y
 git clone https://github.com/sdushantha/tmpmail.git
 sudo cp tmpmail/tmpmail /usr/local/bin/
 sudo rm -rf tmpmail
+
+# Customize gnome.
+sudo apt-get install gnome-tweak-tool dconf-editor -y
